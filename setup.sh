@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt update
-sudo apt-get install nodejs
+sudo apt-get install nodejs npm
 sudo npm install n -g
 sudo n latest
 
