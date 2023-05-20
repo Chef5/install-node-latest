@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-set -ex
-
-sudo yum install nodejs npm --enablerepo=epel
+sudo apt update
+sudo apt-get install nodejs
 sudo npm install n -g
 sudo n latest
 
